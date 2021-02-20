@@ -14,7 +14,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item active mr-5">
+            <li class="nav-item active mr-3">
                 <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
@@ -22,6 +22,35 @@
             </li>
     </div>
 </nav>
-<h1>WELCOME TO TURN THE PAGE BOOK STORE</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/bannerImage.jpg" alt="Banner image" class="img-fluid">
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-12">
+            <h1 class="text-danger text-center">Give a boost to your language skills with us.</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Suit yourself to our collection and place your order.</h4>
+            <form action="store.php">
+                <input type="submit" class="btn btn-outline-info col-2 form-control" value="Visit Store">
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+<div class="container-fluid mt-3">
+    <div class="row bg-danger">
+        <div class="col-md-12 text-center text-light">
+            <p class="lead pt-3">&copy;All rights reserved @ Divkaran Singh<br>
+            <small>Winter 2020 - Web Design and Development</small></p>
+        </div>
+    </div>
+</div>
+</footer>
 </body>
 </html>
